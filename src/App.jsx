@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import { motion } from 'framer-motion';
 import { getIcon } from './utils/iconUtils';
 import Home from './pages/Home';
