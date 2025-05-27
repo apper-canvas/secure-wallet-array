@@ -436,7 +436,6 @@ const BankingTabView = () => {
   );
 };
 
-
 // Mock data
 const mockAccount = {
   name: "Premium Checking",
@@ -584,4 +583,3 @@ const Home = () => {
 };
 
 export default Home;
-
