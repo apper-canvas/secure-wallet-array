@@ -49,8 +49,6 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             Logout
           </button>
         </div>
-        </div>
-      </div>
     </header>
   );
 };
