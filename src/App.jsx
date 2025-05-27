@@ -51,6 +51,9 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           </button>
 
         </div>
+      </div>
+    </header>
+
     </header>
   );
 };
