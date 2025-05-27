@@ -54,7 +54,6 @@ const Header = ({ darkMode, toggleDarkMode }) => {
       </div>
     </header>
 
-    </header>
   );
 };
 
