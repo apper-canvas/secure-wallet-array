@@ -38,6 +38,17 @@ const Header = ({ darkMode, toggleDarkMode }) => {
               <MoonIcon className="h-5 w-5 text-surface-600" />
             )}
           </button>
+          
+          <button 
+            onClick={() => {
+              toast.success('Logged out successfully!');
+              // Add actual logout logic here when authentication is implemented
+            }}
+            className="px-3 py-1.5 text-sm rounded-lg bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 hover:bg-red-200 dark:hover:bg-red-900/50 transition-colors"
+          >
+            Logout
+          </button>
+        </div>
         </div>
       </div>
     </header>
