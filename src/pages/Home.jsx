@@ -115,6 +115,8 @@ const RecentTransaction = ({ transaction, index }) => {
       </div>
     </motion.div>
   );
+}
+
 
 // Banking Tab View Component
 const BankingTabView = () => {
@@ -581,6 +583,5 @@ const Home = () => {
   );
 };
 
-};
 
 export default Home;
