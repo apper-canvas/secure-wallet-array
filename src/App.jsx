@@ -131,8 +131,10 @@ function App() {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme={darkMode ? "dark" : "light"}
-        toastClassName="!bg-white dark:!bg-surface-800 !shadow-card"
+theme={darkMode ? "dark" : "light"}
+        toastClassName="!bg-white dark:!bg-surface-850 !shadow-card dark:!shadow-card-dark !border !border-surface-200 dark:!border-surface-600"
+        bodyClassName="!text-surface-800 dark:!text-surface-200"
+        progressClassName="!bg-primary-500"
       />
     </div>
   );

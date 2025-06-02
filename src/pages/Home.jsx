@@ -542,9 +542,9 @@ transition={{ duration: 0.3 }}
             icon="piggy-bank" 
             label="Savings" 
             onClick={() => handleQuickAction('Savings')}
-            delay={4}
+onClick={() => window.location.href = '/statements'}
+            delay={5}
           />
-          <QuickActionButton 
             icon="file-text" 
             label="Statements" 
             onClick={() => handleQuickAction('Statements')}
