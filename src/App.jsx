@@ -69,9 +69,8 @@ const Footer = () => {
             <ShieldIcon className="h-5 w-5 text-primary" />
             <p className="text-sm">Secure Banking Technology</p>
           </div>
-          
-          <div className="text-sm text-surface-500">
-            &copy; {new Date().getFullYear()} SecureWallet. All rights reserved.
+<div className="text-sm text-surface-500">
+            &copy; {new Date().getFullYear()} Saabka Lena Dena Bank. All rights reserved.
           </div>
         </div>
       </div>

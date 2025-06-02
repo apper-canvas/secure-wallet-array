@@ -121,16 +121,14 @@ const RecentTransaction = ({ transaction, index }) => {
 // Banking Tab View Component
 const BankingTabView = () => {
   const [activeTab, setActiveTab] = useState('cards');
-  
-  const tabs = [
+const tabs = [
     { id: 'cards', label: 'Cards', icon: 'credit-card' },
-    { id: 'mutual-funds', label: 'Mutual Funds', icon: 'trending-up' },
-    { id: 'international', label: 'International', icon: 'globe' },
-    { id: 'help', label: 'Help', icon: 'help-circle' },
-    { id: 'investments', label: 'Investments', icon: 'bar-chart-3' },
-    { id: 'other', label: 'Other Services', icon: 'more-horizontal' }
+    { id: 'mutual-funds', label: 'Mutual Funds', icon: 'pie-chart' },
+    { id: 'international', label: 'International', icon: 'plane' },
+    { id: 'help', label: 'Help', icon: 'headphones' },
+    { id: 'investments', label: 'Investments', icon: 'trending-up' },
+    { id: 'other', label: 'Other Services', icon: 'grid-3x3' }
   ];
-  
   const renderTabContent = () => {
     switch(activeTab) {
       case 'cards':
