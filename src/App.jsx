@@ -5,7 +5,12 @@ import { motion } from 'framer-motion';
 import { getIcon } from './utils/iconUtils';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
-
+import Transfer from './pages/Transfer';
+import Bills from './pages/Bills';
+import Exchange from './pages/Exchange';
+import Investments from './pages/Investments';
+import Savings from './pages/Savings';
+import Statements from './pages/Statements';
 // Header component with dark mode toggle
 const Header = ({ darkMode, toggleDarkMode }) => {
   const SunIcon = getIcon('sun');
@@ -21,11 +26,10 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             transition={{ duration: 0.5 }}
             className="text-primary dark:text-primary-light"
           >
-            <WalletIcon className="h-7 w-7" />
-          </motion.div>
-          <span className="font-heading font-bold text-xl">SecureWallet</span>
-        </a>
-        
+<WalletIcon className="h-7 w-7" />
+        </motion.div>
+        <span className="font-heading font-bold text-xl">Saabka Lena Dena Bank</span>
+      </a>
         <div className="flex items-center gap-4">
           <button 
             onClick={toggleDarkMode}
