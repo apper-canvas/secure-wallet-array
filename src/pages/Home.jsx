@@ -513,41 +513,41 @@ transition={{ duration: 0.3 }}
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4">Quick Actions</h2>
         
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
           <QuickActionButton 
             icon="send" 
             label="Transfer" 
-            onClick={() => handleQuickAction('Transfer')}
+            onClick={() => navigate('/transfer')}
             delay={0}
           />
           <QuickActionButton 
             icon="credit-card" 
             label="Pay Bills" 
-            onClick={() => handleQuickAction('Bill Payment')}
+            onClick={() => navigate('/bills')}
             delay={1}
           />
           <QuickActionButton 
             icon="arrows-up-down" 
             label="Exchange" 
-            onClick={() => handleQuickAction('Currency Exchange')}
+            onClick={() => navigate('/exchange')}
             delay={2}
           />
           <QuickActionButton 
             icon="landmark" 
             label="Investments" 
-            onClick={() => handleQuickAction('Investments')}
+            onClick={() => navigate('/investments')}
             delay={3}
           />
           <QuickActionButton 
             icon="piggy-bank" 
             label="Savings" 
-            onClick={() => handleQuickAction('Savings')}
-onClick={() => window.location.href = '/statements'}
-            delay={5}
+            onClick={() => navigate('/savings')}
+            delay={4}
           />
+          <QuickActionButton 
             icon="file-text" 
             label="Statements" 
-            onClick={() => handleQuickAction('Statements')}
+            onClick={() => navigate('/statements')}
             delay={5}
           />
         </div>
