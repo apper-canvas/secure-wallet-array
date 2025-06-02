@@ -103,13 +103,18 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       
-      <main className="flex-grow">
+<main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/transfer" element={<Transfer />} />
+          <Route path="/bills" element={<Bills />} />
+          <Route path="/exchange" element={<Exchange />} />
+          <Route path="/investments" element={<Investments />} />
+          <Route path="/savings" element={<Savings />} />
+          <Route path="/statements" element={<Statements />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      
       <Footer />
       
       <ToastContainer

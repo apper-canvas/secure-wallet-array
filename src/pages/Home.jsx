@@ -493,11 +493,10 @@ const Home = () => {
           className="text-2xl md:text-3xl font-bold mb-6"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3 }}
+transition={{ duration: 0.3 }}
         >
-          Welcome to SecureWallet
+          Welcome to Saabka Lena Dena Bank
         </motion.h1>
-        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <AccountBalanceCard account={mockAccount} />
           
